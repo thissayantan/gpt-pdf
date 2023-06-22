@@ -1,4 +1,4 @@
-# LLM Powered Document Chat
+# LLM Powered Document Chat 📚
 
 LLM Powered Document Chat is a web-based application powered by Streamlit and large language models (LLMs). It enables users to engage in a chat-based interaction with document repositories, allowing for information retrieval in a conversational manner.
 
@@ -27,6 +27,18 @@ For Windows PowerShell:
 
 ```powershell
 (Invoke-WebRequest -Uri https://install.python-poetry.org -UseBasicParsing).Content | python -
+```
+
+Configure Poetry to create virtual environments within your project's directory:
+
+```bash
+poetry config virtualenvs.in-project true
+```
+
+Create a new virtual environment:
+
+```bash
+poetry shell
 ```
 
 Install the necessary dependencies:
